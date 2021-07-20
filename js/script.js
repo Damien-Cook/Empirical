@@ -1,73 +1,60 @@
 $(document).ready(function(){    
-    $('.hero-wrapper').slick({
-        infinite: true,
-        autoplay: true
-    });
-
-    // $('#contact_form').submit(function(e) {
-    //   e.preventDefault();
-    //   var first_name = $('#fname').val();
-    //   var last_name = $('#lname').val();
-    //   var phone_number = $('#phone').val();
-    //   var email = $('#email').val();
-    //   var password = $('#password').val();
-  
-    //   $(".error").remove();
-  
-    //   if (first_name.length < 1) {
-    //     $('#first_name').after('<span class="error">This field is required</span>');
-    //   }
-    //   if (last_name.length < 1) {
-    //     $('#last_name').after('<span class="error">This field is required</span>');
-    //   }
-    //   if (phone_number.length < 1) {
-    //     $('#phone').after('<span class="error">This field is required</span>');
-    //   }
-    //   if (email.length < 1) {
-    //     $('#email').after('<span class="error">This field is required</span>');
-    //   } else {
-    //     var regEx = /^[A-Z0-9][A-Z0-9._%+-]{0,63}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/;
-    //     var validEmail = regEx.test(email);
-    //     if (!validEmail) {
-    //       $('#email').after('<span class="error">Enter a valid email</span>');
-    //     }
-    //   }
-    //   if (password.length < 8) {
-    //     $('#password').after('<span class="error">Password must be at least 8 characters long</span>');
-    //   }
-    // });
-
-    $('form[id="second_form"]').validate({
-      rules: {
-        fname: 'required',
-        lname: 'required',
-        phone: 'required',
-        subject: 'required',
-        email: {
-          required: true,
-          email: true,
-        },
-        password: {
-          required: true,
-          minlength: 8,
-        }
-      },
-      messages: {
-        fname: 'This field is required',
-        lname: 'This field is required',
-        phone: 'This field is required',
-        subject: 'Please enter some text.',
-        email: 'Enter a valid email.',
-        password: {
-        minlength: 'Password must be at least 8 characters long'
-        }
-      },
-      submitHandler: function(form) {
-        form.submit();
+  $('.hero-wrapper').slick({
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+  responsive: [
+    {
+      breakpoint: 1320,
+      settings: {
+        arrows: false,
+        slidesToShow: 1
       }
-    });
-  
+    }
+    ]
   });
+
+  $('#burger').click(function(e) {
+    e.preventDefault();
+    if($('nav').hasClass('mob')) {
+      $('nav').removeClass('mob');
+    } else {
+        $('nav').addClass('mob');
+    }
+
+  });
+
+  // $('form[id="contact_form"]').validate({
+  //   rules: {
+  //     fname: 'required',
+  //     lname: 'required',
+  //     phone: 'required',
+  //     subject: 'required',
+  //     email: {
+  //       required: true,
+  //       email: true,
+  //     },
+  //     password: {
+  //       required: true,
+  //       minlength: 8,
+  //     }
+  //   },
+  //   messages: {
+  //     fname: 'This field is required',
+  //     lname: 'This field is required',
+  //     phone: 'This field is required',
+  //     subject: 'Please enter some text.',
+  //     email: 'Enter a valid email.',
+  //     password: {
+  //     minlength: 'Password must be at least 8 characters long'
+  //     }
+  //   },
+  //   submitHandler: function(form) {
+  //     form.submit();
+  //   }
+  // });
+  
+ });
 
 window.onscroll = function() {
   stickyHeader();
@@ -79,11 +66,9 @@ function stickyHeader() {
   var sticky = header.offsetTop;
   if(window.pageYOffset > sticky) {
     header.classList.add("sticky");
-    console.log("sticky");
   } 
   else {
     header.classList.remove("sticky");
-    console.log("nonsticky");
   }
 }
 
@@ -93,3 +78,27 @@ function scrollProgress() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 } 
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+$(document).ready(function(){
+  var controller = new ScrollMagic.Controller();
+  var revealElements = document.getElementsByClassName("digit");
+  for (var i=0; i<revealElements.length; i++) { // create a scene for each element
+    new ScrollMagic.Scene({
+      triggerElement: revealElements[i], // y value not modified, so we can use element as trigger as well
+      offset: 50,												 // start a little later
+      triggerHook: 0.9,
+    })
+        .setClassToggle(revealElements[i], "visible") // add class toggle
+        // .addIndicators({name: "digit " + (i+1) })       // add indicators (requires plugin)
+        .addTo(controller);
+  }
+});
