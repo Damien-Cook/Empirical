@@ -355,6 +355,10 @@ li a.active {
     background-image: url(../img/hero-banners/heroBanner4.png);
 }
 
+.hero.hero-5 {
+    background-image: url(../img/news/eabanner.png);
+}
+
 .hero-content {
     position: relative;
     width: 600px;
@@ -862,8 +866,38 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     cursor: pointer;
     padding: 15px;
     font-size: 18px;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: rgb(58, 58, 58);
-  }
+}
+
+/* NEWS ARTICLE CSS */
+
+.newsbox {
+    border-style: solid;
+    border-radius: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#111;
+}
+
+.newsheading {
+    font-size: 50px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.newssubheading {
+    font-size: 35px;
+    font-family: 'Teko', sans-serif;
+}
+
+.newstext {
+    font-size: 16px;
+}
+
+.quote {
+    font-family: 'Teko', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}

@@ -24,35 +24,37 @@ $(document).ready(function(){
 
   });
 
-  // $('form[id="contact_form"]').validate({
-  //   rules: {
-  //     fname: 'required',
-  //     lname: 'required',
-  //     phone: 'required',
-  //     subject: 'required',
-  //     email: {
-  //       required: true,
-  //       email: true,
-  //     },
-  //     password: {
-  //       required: true,
-  //       minlength: 8,
-  //     }
-  //   },
-  //   messages: {
-  //     fname: 'This field is required',
-  //     lname: 'This field is required',
-  //     phone: 'This field is required',
-  //     subject: 'Please enter some text.',
-  //     email: 'Enter a valid email.',
-  //     password: {
-  //     minlength: 'Password must be at least 8 characters long'
-  //     }
-  //   },
-  //   submitHandler: function(form) {
-  //     form.submit();
-  //   }
-  // });
+  if($('form[id="contact_form"]').length > 0) {
+    $('form[id="contact_form"]').validate({
+      rules: {
+        fname: 'required',
+        lname: 'required',
+        phone: 'required',
+        subject: 'required',
+        email: {
+          required: true,
+          email: true,
+        },
+        password: {
+          required: true,
+          minlength: 8,
+        }
+      },
+      messages: {
+        fname: 'This field is required',
+        lname: 'This field is required',
+        phone: 'This field is required',
+        subject: 'Please enter some text.',
+        email: 'Enter a valid email.',
+        password: {
+          minlength: 'Password must be at least 8 characters long'
+        }
+      },
+      submitHandler: function (form) {
+        form.submit();
+      }
+    });
+  }
   
  });
 
