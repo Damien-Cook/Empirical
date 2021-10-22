@@ -903,5 +903,5 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .card:hover {
-    background: url("../img/thumbnails/empblackhoodieback no-repeat;
+    background: url("../img/thumbnails/empblackhoodieback") no-repeat;
 }
