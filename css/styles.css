@@ -899,9 +899,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .card {
-    background: url("../img/thumbnails/empblackhoodiefront") no-repeat;
+    background: url("../img/thumbnails/empblackhoodiefront.png") no-repeat;
 }
 
 .card:hover {
-    background: url("../img/thumbnails/empblackhoodieback") no-repeat;
+    background: url("../img/thumbnails/empblackhoodieback.png") no-repeat;
 }
