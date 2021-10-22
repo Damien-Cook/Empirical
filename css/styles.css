@@ -901,9 +901,11 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .card {
     background: url("../img/thumbnails/empblackhoodiefront.png") no-repeat;
     width: 100%;
+    height: 200px;
 }
 
 .card:hover {
     background: url("../img/thumbnails/empblackhoodieback.png") no-repeat;
     width: 100%;
+    height: 200px;
 }
