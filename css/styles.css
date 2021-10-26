@@ -905,6 +905,10 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     width: 360px;
     max-width: 100%;
 }
+
+.figure:hover {
+    opacity: 0;
+}
     
 .figure img.image-hover {
     position: absolute;
