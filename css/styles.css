@@ -914,7 +914,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     bottom: 0;
     object-fit: contain;
     opacity: 0;
-    transition: opacity .2s;
+    transition: opacity 0s;
 }
 
 .figure:hover img.image-hover {
@@ -922,11 +922,11 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .hoodiegrow { 
-    transition: all ease-in-out;
+    transition: none;
 }
 
 .hoodiegrow:hover {
-    transform: scale(1.05); 
+    transform: scale(1.2); 
 }
 
 /* END */
