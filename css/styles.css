@@ -921,4 +921,12 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
   opacity: 1;
 }
 
+.hoodiegrow { 
+    transition: all .2s ease-in-out;
+}
+
+.hoodiegrow:hover {
+    transform: scale(1.1); 
+}
+
 /* END */
