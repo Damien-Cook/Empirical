@@ -922,7 +922,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .hoodiegrow { 
-    transition: all .2s ease-in-out;
+    transition: all .01s ease-in-out;
 }
 
 .hoodiegrow:hover {
