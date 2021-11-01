@@ -926,7 +926,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .hoodiegrow:hover {
-    transform: scale(1.2); 
+    transform: scale(1.01); 
 }
 
 /* END */
