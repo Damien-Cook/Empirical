@@ -360,6 +360,7 @@ li a.active {
 }
 
 .hero2 {
+    top: 20px;
     position: relative;
     width: 100%;
     height: 800px;
