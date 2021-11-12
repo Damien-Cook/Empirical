@@ -359,6 +359,13 @@ li a.active {
     background-image: url(../img/news/eabanner.png);
 }
 
+.hero-content {
+    position: relative;
+    width: 600px;
+    margin: auto;
+    top: 25%;
+}
+
 .hero-button {
     background-color: #c2a9c4;
     color: white;
