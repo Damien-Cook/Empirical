@@ -359,6 +359,23 @@ li a.active {
     background-image: url(../img/news/eabanner.png);
 }
 
+.hero-button {
+    background-color: #c2a9c4;
+    color: white;
+    border: 1px solid #c2a9c4;
+    margin-top: 50px;
+    padding: 20px 18px;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+    display: block;
+}
+
+.hero-button:hover {
+    background-color: #cb376a;
+    border: 1px solid #db7598;
+}
+
 .hero2 {
     top: 20px;
     position: relative;
@@ -390,6 +407,7 @@ li a.active {
 .hero-content2 .hero-image {
     width: 200px;
 }
+
 
 .hero-button2 {
     background-color: #2f8356;
