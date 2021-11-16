@@ -36,8 +36,8 @@ $(document).ready(function(){
         },
       },
       messages: {
-        fname: 'This field is required',
-        adr: 'This field is required',
+        fname: 'This field is required.',
+        adr: 'This field is required.',
         subject: 'Please enter some text.',
         email: 'Enter a valid email.',
         password: {
