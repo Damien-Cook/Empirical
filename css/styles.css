@@ -971,4 +971,9 @@ i:nth-of-type(2){
     background-color: black;
 }
 
+.fa {
+    color: white;
+    background-color: white;
+}
+
 /* END */
