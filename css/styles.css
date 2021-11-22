@@ -931,4 +931,20 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     transform: scale(1.01); 
 }
 
+.tiktoklogo {
+  font-size: 100px;
+  position: relative;
+  color: #00fff8;
+}
+
+/* Tiktok logo */
+.tiktoklogo i:last-child {
+  mix-blend-mode: multiply;
+  color: #ff0010;
+  position: absolute;
+  left: 5px;
+  top: 7px;
+}
+
+
 /* END */
