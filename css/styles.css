@@ -948,7 +948,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 
 i {
     position: absolute;
-    font-size:200px
+    font-size: 
     background-color: white;
     color: white;
 }
@@ -967,8 +967,7 @@ i:nth-of-type(2){
 
 .containertt {
     position: relative;
-    width: px;
-    height: px;
+    height: 25px;
     background-color: black;
 }
 
