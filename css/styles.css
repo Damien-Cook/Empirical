@@ -931,20 +931,40 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     transform: scale(1.01); 
 }
 
-.tiktoklogo {
-  font-size: 100px;
-  position: relative;
-  color: #00fff8;
-}
-
 /* Tiktok logo */
-.tiktoklogo i:last-child {
-  mix-blend-mode: multiply;
-  color: #ff0010;
-  position: absolute;
-  left: 5px;
-  top: 7px;
+
+.fab .fa-tiktok {
+  color: #111111;
+  filter: drop-shadow(-5px -5px 0 #24f6f0) contrast(150%) brightness(110%);
+  z-index: -1;
 }
 
+.fab .fa-tiktok::after {
+  filter: drop-shadow(5px 5px 0 #F70250) contrast(150%) brightness(110%);
+  z-index: -1;
+}
+
+i{
+    position: absolute;
+font-size:200px
+}
+
+i:nth-of-type(1){
+    color: #E62259;
+    right: 10px;
+}
+
+i:nth-of-type(2){
+    color: #02F4EB;
+    top: -2px;
+    opacity: 0.7;
+}
+
+.container{
+    position: relative;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+}
 
 /* END */
