@@ -976,4 +976,23 @@ i:nth-of-type(2){
     background-color: white;
 }
 
+.insta {  
+   width: 150px;  
+   height: 150px;  
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);  
+   border-radius: 35px;  
+   display: grid;  
+   place-items: center;  
+ }  
+
+ .innerbox {  
+   width: 120px;  
+   height: 120px;  
+   border: 10px solid #fff;  
+   border-radius: 32px;  
+   display: grid;  
+   place-items: center;  
+   position: relative;  
+ }  
+
 /* END */
