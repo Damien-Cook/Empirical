@@ -977,30 +977,33 @@ i:nth-of-type(2){
 }
 
 .insta {  
-   width: 45px;  
-   height: 45px;  
+   width: 50px;  
+   height: 50px;  
    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);  
-   border-radius: 35px;  
+   border-radius: 10px;  
    display: grid;  
    place-items: center;  
  }  
 
+ /* innerbox in insta box */  
  .innerbox {  
-   width: 36px;  
-   height: 36px;  
+   width: 40px;  
+   height: 40px;  
    border: 4px solid #fff;  
-   border-radius: 15px;  
+   border-radius: 9px;  
    display: grid;  
    place-items: center;  
    position: relative;  
  }  
 
-.innerbox::before {  
+/* center circle of insta */  
+ .innerbox::before {  
    content: '';  
-   width: 13.5px;  
-   height: 13.5px;  
+   width: 15px;  
+   height: 15px;  
    border: 3px solid #fff;  
-   border-radius: 50%;  
+   border-radius: 100%; 
+    
    background: transparent;  
    position: absolute;  
  }  
@@ -1009,63 +1012,10 @@ i:nth-of-type(2){
    content: '';  
    width: 3px;  
    height: 3px;  
-   border: 2px solid #fff;  
-   border-radius: 50%;  
+   border: 1px solid #fff;  
+   border-radius: 100%;  
    background: #fff;  
    position: absolute;  
-   top: 8px;  
-   right: 10px;  
- }  
-
-/* END */
-
-
-
-
-
-
-
-
-
-.insta2 {  
-   width: 150px;  
-   height: 150px;  
-   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);  
-   border-radius: 35px;  
-   display: grid;  
-   place-items: center;  
- }  
-
- /* innerbox in insta box */  
- .innerbox2 {  
-   width: 120px;  
-   height: 120px;  
-   border: 10px solid #fff;  
-   border-radius: 32px;  
-   display: grid;  
-   place-items: center;  
-   position: relative;  
- }  
-
-/* center circle of insta */  
- .innerbox2::before {  
-   content: '';  
-   width: 45px;  
-   height: 45px;  
-   border: 10px solid #fff;  
-   border-radius: 50%;  
-   background: transparent;  
-   position: absolute;  
- }  
- /* top right circle of insta */  
- .innerbox2::after {  
-   content: '';  
-   width: 10px;  
-   height: 10px;  
-   border: 2px solid #fff;  
-   border-radius: 50%;  
-   background: #fff;  
-   position: absolute;  
-   top: 8px;  
-   right: 10px;  
+   top: 2px;  
+   right: 3px;  
  }  
