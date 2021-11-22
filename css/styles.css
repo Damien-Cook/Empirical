@@ -995,4 +995,26 @@ i:nth-of-type(2){
    position: relative;  
  }  
 
+.innerbox::before {  
+   content: '';  
+   width: 45px;  
+   height: 45px;  
+   border: 10px solid #fff;  
+   border-radius: 50%;  
+   background: transparent;  
+   position: absolute;  
+ }  
+ /* top right circle of insta */  
+ .innerbox::after {  
+   content: '';  
+   width: 10px;  
+   height: 10px;  
+   border: 2px solid #fff;  
+   border-radius: 50%;  
+   background: #fff;  
+   position: absolute;  
+   top: 8px;  
+   right: 10px;  
+ }  
+
 /* END */
