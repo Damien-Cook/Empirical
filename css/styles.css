@@ -1021,8 +1021,8 @@ i:nth-of-type(2){
 }  
 
 .wrapper {
-	width: 120px; /* 115 */
-	height: 95px; /* 92 */ 
+	width: 1200px; /* 115 */
+	height: 95p0x; /* 92 */ 
 	margin: 10% auto 4em;
 	overflow: hidden;
 }
@@ -1113,7 +1113,7 @@ i:nth-of-type(2){
 
 .bird .mouth-top {
 	width: 43px;
-	height: 143px;
+	height: 43px;
 	top: 93px;
 	left: 176px;
 }
