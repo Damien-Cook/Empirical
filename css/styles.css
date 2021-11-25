@@ -983,7 +983,7 @@ i:nth-of-type(2){
    border-radius: 10px;  
    display: grid;  
    place-items: center;  
- }  
+ }
 
  /* innerbox in insta box */  
  .innerbox {  
@@ -1006,7 +1006,8 @@ i:nth-of-type(2){
     
    background: transparent;  
    position: absolute;  
- }  
+ }
+
  /* top right circle of insta */  
  .innerbox::after {  
    content: '';  
@@ -1021,8 +1022,6 @@ i:nth-of-type(2){
 }  
 
 .wrapper {
-	width: 120px; /* 115 */
-	height: 95p0x; /* 92 */ 
 	overflow: hidden;
 }
 .bird {
