@@ -1021,9 +1021,8 @@ i:nth-of-type(2){
 }  
 
 .wrapper {
-	width: 1200px; /* 115 */
+	width: 120px; /* 115 */
 	height: 95p0x; /* 92 */ 
-	margin: 10% auto 4em;
 	overflow: hidden;
 }
 .bird {
