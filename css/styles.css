@@ -932,7 +932,6 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .socials {
-	width: 150px;
-	height: 150px;
+	height: 100%;
 }
 
