@@ -936,5 +936,6 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .yt {
-	height: 45px;
+	top: 10px;
+	height: 55px;
 }
