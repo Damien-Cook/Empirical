@@ -368,11 +368,11 @@ li a.active {
 }
 
 .hero-button {
-	background-color: #c2a9c4;
-	color: white;
-	border: 2px solid #ffffff;
-	margin-top: 250px;
-	margin-left: 1080px;
+	background-color: white;
+	color: #000;
+	border: 1px solid #808080;
+	margin-top: 275px;
+	margin-left: 1110px;
 	padding: 20px 20px;
 	font-size: 20px;
 	font-weight: 200;
@@ -382,8 +382,8 @@ li a.active {
 }
 
 .hero-button:hover {
-	background-color: #cb376a;
-	border: 1px solid #db7598;
+	background-color: #cfcfcf;
+	border: 1px solid #cfcfcf;
 }
 
 .hero2 {
@@ -441,7 +441,7 @@ li a.active {
 }
 
 .transbox {
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.5);
 	display: inline-block;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -449,7 +449,7 @@ li a.active {
 }
 
 .transbox2 {
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.5);
 	display: inline-block;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -457,7 +457,7 @@ li a.active {
 }
 
 .transbox3 {
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.5);
 	display: inline-block;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -465,7 +465,7 @@ li a.active {
 }
 
 .transbox4 {
-	background: rgba(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 0.5);
 	display: inline-block;
 	padding-left: 40px;
 	padding-right: 40px;
