@@ -362,21 +362,23 @@ li a.active {
 
 .hero-content {
 	position: relative;
-	width: 600px;
+	width: 97%;
 	margin: auto;
-	top: 25%;
+	top: 3%;
 }
 
 .hero-button {
 	background-color: #c2a9c4;
 	color: white;
-	border: 1px solid #c2a9c4;
-	margin-top: 50px;
-	padding: 20px 18px;
+	border: 2px solid #ffffff;
+	margin-top: 250px;
+	margin-left: 1080px;
+	padding: 20px 20px;
 	font-size: 20px;
 	font-weight: 200;
 	cursor: pointer;
 	display: block;
+	border-radius: 15px;
 }
 
 .hero-button:hover {
@@ -426,6 +428,7 @@ li a.active {
 	font-size: 20px;
 	font-weight: bold;
 	cursor: pointer;
+	border-radius: 5px;
 }
 
 .hero-button2:hover {
