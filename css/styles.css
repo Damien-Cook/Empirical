@@ -633,7 +633,6 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .formbg {
 	border-radius: 5px;
 	background-color: #464646;
-	padding: 20px;
 }
 
 .col-25 {    
