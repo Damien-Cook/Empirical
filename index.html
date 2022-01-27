@@ -70,7 +70,7 @@
 							<h1 class="hero-title">Brand New Single</h1>
 							<h2 class="hero-subtitle">Without you</h2>
 						</div>
-						<a href="img/hero-banners/WITHOUT_YOU_(getmp3.pro).mp3" download> <!-- DOWNLOAD LINK FOR SONG -->
+						<a href="img/hero-banners/WITHOUT_YOU_(getmp3.pro).mp3" download>
 							<button type="button" class="hero-button"><i class="fa fa-download" aria-hidden="true"></i></button>
 						</a>
 					</div>
@@ -81,7 +81,7 @@
 							<h1 class="hero-title">Brand New Single</h1>
 							<h2 class="hero-subtitle">Without you</h2>
 						</div>
-						<a href="img/hero-banners/WITHOUT_YOU_(getmp3.pro).mp3" download> <!-- DOWNLOAD LINK FOR SONG -->
+						<a href="img/hero-banners/WITHOUT_YOU_(getmp3.pro).mp3" download>
 							<button type="button" class="hero-button"><i class="fa fa-download" aria-hidden="true"></i></button>
 						</a>
 					</div>
@@ -124,59 +124,71 @@
 						<p>Empirical's discography where you will find all of his releases: <a href="discography.html" style="color: #74b7ff">Discography</a></p>
 						<p>You can leave feedback on the website, ask for business deals or contact Empirical's manager. Contact us here.</p>
 					
-					<button id="myBtn">Open Modal</button>
+						<button id="myBtn">Open Modal</button>
 
-					<style>
-						/* The Modal (background) */
-						.modal {
-						  position: fixed; /* Stay in place */
-						  z-index: 1000; /* Sit on top */
-						  padding-top: 100px; /* Location of the box */
-						  left: 0;
-						  top: 0;
-						  width: 100%; /* Full width */
-						  height: 100%; /* Full height */
-						  overflow: auto; /* Enable scroll if needed */
-						  background-color: rgb(0,0,0); /* Fallback color */
-						  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-						}
+						<style>
+							.modal {
+								position: fixed; /* Stay in place */
+								z-index: 1000; /* Sit on top */
+								padding-top: 100px; /* Location of the box */
+								left: 0;
+								top: 0;
+								width: 100%; /* Full width */
+								height: 100%; /* Full height */
+								overflow: auto; /* Enable scroll if needed */
+								background-color: rgb(0,0,0); /* Fallback color */
+								background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+							}
+							
+							.modal-content {
+								background-color: #fefefe;
+								margin: auto;
+								padding: 20px;
+								border: 1px solid #888;
+								width: 80%;
+							}
 
-						/* Modal Content */
-						.modal-content {
-						  background-color: #fefefe;
-						  margin: auto;
-						  padding: 20px;
-						  border: 1px solid #888;
-						  width: 80%;
-						}
+							.close {
+								color: #aaaaaa;
+								float: right;
+								font-size: 28px;
+								font-weight: bold;
+							}
 
-						/* The Close Button */
-						.close {
-						  color: #aaaaaa;
-						  float: right;
-						  font-size: 28px;
-						  font-weight: bold;
-						}
-
-						.close:hover,
-						.close:focus {
-						  color: #000;
-						  text-decoration: none;
-						  cursor: pointer;
-						}
+							.close:hover,
+								.close:focus {
+								color: #000;
+								text-decoration: none;
+								cursor: pointer;
+							}
 						</style>
-						</head>
-						<body>
 
 						<!-- The Modal -->
 						<div id="myModal" class="modal">
-
-						  <!-- Modal content -->
-						  <div class="modal-content">
-						    <span class="close">&times;</span>
-						    <p>Some text in the Modal..</p>
-						  </div>
-
+							<div class="modal-content">
+								<span class="close">&times;</span>
+								<div class="container">
+									<div class="formbg">
+										<h2>Form</h2>
+										<form id="contact_form" method="post" action="">
+											<label for="fname"><i class="fa fa-user"></i> Full Name</label>
+											<input type="text" id="fname" name="fname" placeholder="John M. Doe">
+											<br><br>
+											<label for="email"><i class="fa fa-envelope"></i> Email</label>
+											<input type="text" id="email" name="email" placeholder="john@example.com">
+											<br><br>
+											<label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+											<input type="text" id="adr" name="adr" placeholder="542 W. 15th Street">
+											<br><br>
+											<label for"subject"><i class="fa fa-file-text-o" aria-hidden="true"></i> Message</label>
+											<textarea id="subject" name="subject" placeholder="Write something.." rows="8"></textarea>
+											<br><br>
+											<input type="submit" value="Submit"></input>
+											<br><br>
+										</form>
+									</div>
+								</div>
+							</div>
 						</div>
 
 						<script>
@@ -206,11 +218,12 @@
 							  }
 							}
 						</script>
-					
 						<a href="index.html"><img src="img/header/empirical.png" style="width: 100%; padding-bottom: 50px;"></a>
 					</div>
 					<div class="latestright">
-						<div class="headingfont"><h1>Latest Single</h1></div>
+						<div class="headingfont">
+							<h1>Latest Single</h1>
+						</div>
 						<p style="font-size: 20px">Without You</p>
 						<p>Without you is the latest song by Empirical. Click the link below to check out the lyric video!</p>
 						<iframe width="100%" height="40%" src="https://www.youtube.com/embed/nzalnIKug94" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -219,88 +232,67 @@
 					</div>
 				</div>
 			</div>
-			<br></br>
-			<div class="container">
+		</div>
+		<br></br>
+		<div class="container">
 			<div class="gamescenter">
 				<div class="headingfont">
 					<h1>Merch</h1>
 				</div>
 				<p>Here we have the latest released merch.</p>
-					<div class="row row-col">
-						<div class="col1">
-							<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
-							<div class="figure">
-								<a href="merch.html">
-									<img class="Sirv image-main" src="img/thumbnails/empblackhoodiefront.jpeg" data-src="img/thumbnails/empblackhoodiefront.jpeg">
-									<img class="Sirv image-hover hoodiegrow" data-src="img/thumbnails/empblackhoodieback.jpeg">
-								</a>
-							</div>
-							<p>Hoodies</p>
-							<p>£59.99</p>
-							<p>available in black and white</p>
+				<div class="row row-col">
+					<div class="col1">
+						<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+						<div class="figure">
+							<a href="merch.html">
+								<img class="Sirv image-main" src="img/thumbnails/empblackhoodiefront.jpeg" data-src="img/thumbnails/empblackhoodiefront.jpeg">
+								<img class="Sirv image-hover hoodiegrow" data-src="img/thumbnails/empblackhoodieback.jpeg">
+							</a>
 						</div>
-						<div class="col2">
-							<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
-							<div class="figure">
-								<a href="merch.html">
-									<img class="Sirv image-main" src="img/thumbnails/emptshirtwhite.png" data-src="img/thumbnails/emptshirtwhite.png">
-									<img class="Sirv image-hover hoodiegrow" data-src="img/thumbnails/emptshirtwhite.png">
-								</a>
-							</div>
-							<p>T-shirts</p>
-							<p>£35.99</p>
-							<p>Limited edition Empirical T-shirt</p>
+						<p>Hoodies</p>
+						<p>£59.99</p>
+						<p>available in black and white</p>
+					</div>
+					<div class="col2">
+						<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+						<div class="figure">
+							<a href="merch.html">
+								<img class="Sirv image-main" src="img/thumbnails/emptshirtwhite.png" data-src="img/thumbnails/emptshirtwhite.png">
+								<img class="Sirv image-hover hoodiegrow" data-src="img/thumbnails/emptshirtwhite.png">
+							</a>
 						</div>
-						<div class="col3">
-							<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
-							<div class="figure">
-								<a href="merch.html">
-									<img class="Sirv image-main" src="img/thumbnails/empwhitemask.png" data-src="img/thumbnails/empwhitemask.png">
-									<img class="Sirv image-hover hoodiegrow" data-src="img/thumbnails/empwhitemask.png">
-								</a>
-							</div>
-							<p>Masks</p>
-							<p>£12.99</p>
-							<p>available in black, white and grey</p>
+						<p>T-shirts</p>
+						<p>£35.99</p>
+						<p>Limited edition Empirical T-shirt</p>
+					</div>
+					<div class="col3">
+						<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+						<div class="figure">
+							<a href="merch.html">
+								<img class="Sirv image-main" src="img/thumbnails/empwhitemask.png" data-src="img/thumbnails/empwhitemask.png">
+								<img class="Sirv image-hover hoodiegrow" data-src="img/thumbnails/empwhitemask.png">
+							</a>
 						</div>
-						<div class="col4">
-							<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
-							<div class="figure">
-								<a href="merch.html">
-									<img class="Sirv image-main" src="img/thumbnails/empbagblack.png" data-src="img/thumbnails/empbagblack.png">
-									<img class="Sirv image-hover hoodiegrow" data-src="img/thumbnails/empbagblack.png">
-								</a>
-							</div>
-							<p>Bag</p>
-							<p>£39.99</p>
-							<p>available in black, grey and white</p>
+						<p>Masks</p>
+						<p>£12.99</p>
+						<p>available in black, white and grey</p>
+					</div>
+					<div class="col4">
+						<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+						<div class="figure">
+							<a href="merch.html">
+								<img class="Sirv image-main" src="img/thumbnails/empbagblack.png" data-src="img/thumbnails/empbagblack.png">
+								<img class="Sirv image-hover hoodiegrow" data-src="img/thumbnails/empbagblack.png">
+							</a>
 						</div>
+						<p>Bag</p>
+						<p>£39.99</p>
+						<p>available in black, grey and white</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<br></br>
-		<div class="container">
-			<div class="formbg">
-				<h2>Form</h2>
-				<form id="contact_form" method="post" action="">
-					<label for="fname"><i class="fa fa-user"></i> Full Name</label>
-					<input type="text" id="fname" name="fname" placeholder="John M. Doe">
-					<br><br>
-					<label for="email"><i class="fa fa-envelope"></i> Email</label>
-					<input type="text" id="email" name="email" placeholder="john@example.com">
-					<br><br>
-					<label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-					<input type="text" id="adr" name="adr" placeholder="542 W. 15th Street">
-					<br><br>
-					<label for"subject"><i class="fa fa-file-text-o" aria-hidden="true"></i> Message</label>
-					<textarea id="subject" name="subject" placeholder="Write something.." rows="8"></textarea>
-					<br><br>
-					<input type="submit" value="Submit"></input>
-					<br><br>
-				</form>
-			</div>
-		</div>
 		<br></br>
 		<div class="footer">
 			<p><u>Copyright &copy; 2021 Empirical</u></p>
