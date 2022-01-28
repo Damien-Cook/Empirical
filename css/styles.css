@@ -934,7 +934,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .modal-content {
-	padding-top: 10%;
+	padding-top: 5%;
 	width: 60%;
 	margin: auto;
 }
