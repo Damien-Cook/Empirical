@@ -954,9 +954,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .modalbutton {
-	color: #2200CC;
+	color: #74b7ff;
 	font-decoration: underline;
-	background-color: #000;
+	background-color: #494949;
 	border-radius: 2px;
 	border: 1px;
 	border-color: black;
