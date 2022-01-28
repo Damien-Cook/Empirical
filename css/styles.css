@@ -935,7 +935,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 
 .modal-content {
 	padding-top: 10%;
-	width: 80%;
+	width: 60%;
 	margin: auto;
 }
 
@@ -955,8 +955,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 
 .modalbutton {
 	color: #74b7ff;
-	background-color: #494949;
-	border-radius: 2px;
+	background-color: black;
 	border: 1px;
 	border-color: black;
 	font-size: 18px;
