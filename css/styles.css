@@ -633,6 +633,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .formbg {
 	border-radius: 5px;
 	background-color: #464646;
+	padding: 10px;
 }
 
 .col-25 {    
@@ -934,8 +935,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 
 /* Modal Content/Box */
 .modal-content {
-  border: 1px solid #888;
+  padding-top: 10%;
   width: 80%;
+  margin: auto;
 }
 
 /* The Close Button */
