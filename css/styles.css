@@ -966,6 +966,6 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 	font-decoration: underline;
 }
 
-.fa {
+.fa, .far, .fas {
 	font-family: Font Awesome 5 Free;
 }
