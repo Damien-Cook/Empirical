@@ -965,3 +965,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .modalbutton : hover {
 	font-decoration: underline;
 }
+
+.fa {
+	font-family: ;
+}
