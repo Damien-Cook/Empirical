@@ -151,7 +151,7 @@ nav.mob li a {
 	bottom: 0;
 	width: 100%;
 	background-color: #F23455;
-	color: #d6be77;
+	color: #d6be77 !important;
 	text-align: center;
 }
 
@@ -266,7 +266,7 @@ body, html {
 /* LINKS AND LISTS CSS */
 
 a:link {
-	color: #9e9e9e;
+	color: #d6be77;
 	background-color: transparent;
 	text-decoration: none;
 }
