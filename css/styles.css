@@ -507,7 +507,7 @@ li a.active {
 
 .aboutleft {
 	position: relative;
-	background-color: #2a2a2a;
+	background-color: #111;
 	width: 100%;
 	color: white;
 	border-style: solid;
@@ -518,7 +518,7 @@ li a.active {
 
 .latestright {
 	position: relative;
-	background-color: #2a2a2a;
+	background-color: #111;
 	margin-left: 10px;
 	width: 100%;
 	color: white;
