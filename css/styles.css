@@ -261,7 +261,6 @@ body, html {
 
 .whitetext {
 	color: white;
-	font-size: 30px;
 }
 
 /* LINKS AND LISTS CSS */
@@ -977,4 +976,8 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 
 .disctext {
 	font-size: 45px;
+}
+
+.largertext {
+	font-size: 40px
 }
