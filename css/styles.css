@@ -976,6 +976,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 
 .disctext {
 	font-size: 45px;
+	color: #f23455;
 }
 
 .largertext {
