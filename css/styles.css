@@ -982,3 +982,11 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .largertext {
 	font-size: 40px
 }
+
+.tweet {
+	width: 75%;
+}
+
+.crossed {
+	width: 20%;
+}
