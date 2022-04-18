@@ -172,8 +172,8 @@ nav.mob li a {
 }
 
 .linkfont {
-	font-family: 'Triforce';
-	color: red;
+    font-size: 60px;
+    color: #f23455;
 }
 
 .headingfont {
