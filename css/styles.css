@@ -988,5 +988,6 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 .crossed {
-	width: 35%;
+	width: 33%;
+	padding-left: 3%;
 }
