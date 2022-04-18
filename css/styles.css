@@ -972,11 +972,11 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 
 .disctitle {
 	font-size: 60px;
+	color: #f23455;
 }
 
 .disctext {
 	font-size: 45px;
-	color: #f23455;
 }
 
 .largertext {
